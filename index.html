@@ -2,10 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiangchun Yang | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <nav class="navbar" aria-label="Primary navigation">
+    <div class="container">
+      <a class="brand" href="#home">Xiangchun Yang</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#bio">Bio</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Creative • Curious • Always Learning</p>
+          <h1>Hi, I'm Xiangchun Yang</h1>
+          <p class="hero-subtitle">Aspiring Developer & Musician</p>
+          <a class="cta" href="#skills">Explore My Skills</a>
+        </div>
+        <img class="hero-photo" src="img/View.jpg" alt="Scenic view that adds personality to the landing page">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="bio" aria-labelledby="bio-title">
+      <div class="container">
+        <div class="section-card">
+          <h2 id="bio-title" class="section-title">About Me</h2>
+          <div class="about-grid">
+            <img class="avatar-photo" src="img/Me.jpg" alt="Portrait of Xiangchun Yang">
+            <div class="bio-text">
+              <p>I’m a second-year student at the University of California, passionate about coding, video editing, and music. I enjoy building creative projects and turning ideas into polished experiences. I’m also the lead vocal of a band, which keeps my love for performance and collaboration alive.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-card">
+          <h2 id="skills-title" class="section-title">Skills</h2>
+          <div class="skills-list">
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Video Editing</span>
+            <span class="tag">Game Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" aria-labelledby="hobbies-title">
+      <div class="container">
+        <div class="section-card">
+          <h2 id="hobbies-title" class="section-title">Hobbies & Interests</h2>
+          <div class="hobbies-grid">
+            <article class="card">
+              <div class="emoji" aria-hidden="true">🎤</div>
+              <h3>Singing</h3>
+              <p>Lead vocalist of a band, performing at local gigs.</p>
+            </article>
+            <article class="card">
+              <div class="emoji" aria-hidden="true">🎮</div>
+              <h3>Video Games</h3>
+              <p>Exploring indie games and competitive multiplayer.</p>
+            </article>
+            <article class="card">
+              <div class="emoji" aria-hidden="true">✈️</div>
+              <h3>Traveling</h3>
+              <p>Road trips, new cities, and hidden food spots.</p>
+            </article>
+            <article class="card">
+              <div class="emoji" aria-hidden="true">🎬</div>
+              <h3>Movies</h3>
+              <p>Anything from sci-fi to classic cinema.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Xiangchun Yang – Built as a learning project</p>
+    </div>
+  </footer>
 </body>
 </html>
